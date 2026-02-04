@@ -11,7 +11,6 @@ The lab aligns with AZ-104 objectives for:
 - Networking (NSGs)  
 - Cost Management  
 
----
 
 ## Architecture
 
@@ -23,7 +22,6 @@ The lab aligns with AZ-104 objectives for:
 - Azure Policy Initiative  
 - Subscription Budget & Alerts  
 
----
 
 ## Implementation
 
@@ -36,7 +34,6 @@ A subscription budget was created to prevent unexpected spend.
 
 ![Budget Created](screenshots/budget-created.png)
 
----
 
 ### 2. Virtual Machine Deployment
 
@@ -44,7 +41,6 @@ An Ubuntu VM was deployed using cost-efficient and secure defaults.
 
 ![VM Overview](screenshots/vm-overview.png)
 
----
 
 ### 3. Network Security
 
@@ -57,7 +53,6 @@ only SSH is permitted.
 
 ![VM IP Not Accessible](screenshots/vm-ip-not-accessible.png)
 
----
 
 ### 4. Secure Access with Key Vault
 
@@ -65,7 +60,6 @@ Secrets such as the SSH key were stored securely in Azure Key Vault.
 
 ![Key Vault Secrets](screenshots/keyvault-secrets.png)
 
----
 
 ### 5. Role-Based Access Control (RBAC)
 
@@ -73,7 +67,6 @@ An Entra ID group was granted `Virtual Machine Contributor` at VM scope.
 
 ![RBAC Assignment](screenshots/RBAC-assignment.png)
 
----
 
 ### 6. Governance with Azure Policy
 
@@ -90,7 +83,6 @@ Non-compliant resources are blocked.
 
 ![Policy Denial](screenshots/policy-denial.png)
 
----
 
 ### 7. Cost Monitoring
 
@@ -98,7 +90,6 @@ Cost trends and spend were reviewed using Cost Analysis and Azure Advisor.
 
 ![Advisor & Cost Analysis](screenshots/advisor-cost-analysis.png)
 
----
 
 ### 8. VM Access via Azure CLI
 
@@ -106,7 +97,6 @@ The VM was accessed securely using Azure Cloud Shell.
 
 ![Cloud Shell Access](screenshots/vm-cloudshell.png)
 
----
 
 ## Lessons Learned
 
